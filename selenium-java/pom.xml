@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+         http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.testlens.sample</groupId>
+    <artifactId>selenium-testng-sample</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+
+    <name>TestLens Selenium Sample Project</name>
+    <description>Sample Selenium + TestNG project with TestLens reporter integration</description>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <selenium.version>4.16.1</selenium.version>
+        <testng.version>7.8.0</testng.version>
+        <webdrivermanager.version>5.6.2</webdrivermanager.version>
+    </properties>
+
+    <dependencies>
+        <!-- Selenium WebDriver -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>${selenium.version}</version>
+        </dependency>
+
+        <!-- TestNG -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>${testng.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- WebDriver Manager -->
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>${webdrivermanager.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- TestLens Reporter -->
+        <dependency>
+            <groupId>com.testlens</groupId>
+            <artifactId>testlens-selenium-reporter</artifactId>
+            <version>1.0.0</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- AWS SDK S3 (needed by reporter optional S3 support) -->
+        <dependency>
+            <groupId>software.amazon.awssdk</groupId>
+            <artifactId>s3</artifactId>
+            <version>2.21.0</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- SLF4J Simple Logger -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>2.0.9</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.11.0</version>
+                <configuration>
+                    <source>11</source>
+                    <target>11</target>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.2.2</version>
+                <configuration>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>testng.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                    <systemPropertyVariables>
+                        <!-- Pass TestLens configuration from command line to forked JVM -->
+                        <TESTLENS_API_KEY>${TESTLENS_API_KEY}</TESTLENS_API_KEY>
+                        <TESTLENS_API_ENDPOINT>${TESTLENS_API_ENDPOINT}</TESTLENS_API_ENDPOINT>
+                        <TESTLENS_REJECT_UNAUTHORIZED>${TESTLENS_REJECT_UNAUTHORIZED}</TESTLENS_REJECT_UNAUTHORIZED>
+                        <!-- S3 Configuration for artifact uploads -->
+                        <TESTLENS_S3_BUCKET>${TESTLENS_S3_BUCKET}</TESTLENS_S3_BUCKET>
+                        <TESTLENS_S3_REGION>${TESTLENS_S3_REGION}</TESTLENS_S3_REGION>
+                        <AWS_ACCESS_KEY_ID>${AWS_ACCESS_KEY_ID}</AWS_ACCESS_KEY_ID>
+                        <AWS_SECRET_ACCESS_KEY>${AWS_SECRET_ACCESS_KEY}</AWS_SECRET_ACCESS_KEY>
+                    </systemPropertyVariables>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

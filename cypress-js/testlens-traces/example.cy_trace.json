@@ -1,0 +1,344 @@
+{
+  "version": "1.0.0",
+  "specFile": "cypress\\e2e\\example.cy.js",
+  "specName": "example.cy.js",
+  "runId": "run_1767355591508_cchrnst1n",
+  "startTime": 1767355591509,
+  "tests": [
+    {
+      "testId": "r3",
+      "title": [
+        "JS Example spec",
+        "should trace visit and title commands"
+      ],
+      "fullTitle": "JS Example spec should trace visit and title commands",
+      "state": "passed",
+      "duration": 238,
+      "startTime": 1767355595129,
+      "endTime": 1767355595327,
+      "commands": [
+        {
+          "commandId": "cmd_1",
+          "commandName": "visit",
+          "args": [
+            "https://example.com"
+          ],
+          "timestamp": 1767355595138,
+          "timestampRelative": 9,
+          "testName": "JS Example spec should trace visit and title commands",
+          "specFile": "cypress\\e2e\\example.cy.js",
+          "state": "passed",
+          "duration": 124,
+          "domAfter": {
+            "timestamp": 1767355595262,
+            "html": "<style>\n        * { box-sizing: border-box; }\n        body { margin: 0; padding: 0; }\n        img { max-width: 100%; height: auto; }\n      </style>\n<style>body{background:#eee;width:60vw;margin:15vh auto;font-family:system-ui,sans-serif}h1{font-size:1.5em}div{opacity:0.8}a:link,a:visited{color:#348}</style>\n<div style=\" display: block; position: static; top: auto; left: auto; right: auto; bottom: auto; width: 600px; height: 127.078px; margin: 0px; padding: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; background-color: rgba(0, 0, 0, 0); color: rgb(0, 0, 0); font-size: 16px; font-family: system-ui, sans-serif; font-weight: 400; border: 0px none rgb(0, 0, 0); border-radius: 0px; flex: 0 1 auto; flex-direction: row; grid: none / none / none / row / auto / auto; opacity: 0.8; z-index: auto; \"><h1 style=\" display: block; position: static; top: auto; left: auto; right: auto; bottom: auto; width: 600px; height: 32px; margin: 16.08px 0px; padding: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; background-color: rgba(0, 0, 0, 0); color: rgb(0, 0, 0); font-size: 24px; font-family: system-ui, sans-serif; font-weight: 700; border: 0px none rgb(0, 0, 0); border-radius: 0px; flex: 0 1 auto; flex-direction: row; grid: none / none / none / row / auto / auto; opacity: 1; z-index: auto; \">Example Domain</h1><p style=\" display: block; position: static; top: auto; left: auto; right: auto; bottom: auto; width: 600px; height: 42px; margin: 16px 0px; padding: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; background-color: rgba(0, 0, 0, 0); color: rgb(0, 0, 0); font-size: 16px; font-family: system-ui, sans-serif; font-weight: 400; border: 0px none rgb(0, 0, 0); border-radius: 0px; flex: 0 1 auto; flex-direction: row; grid: none / none / none / row / auto / auto; opacity: 1; z-index: auto; \">This domain is for use in documentation examples without needing permission. Avoid use in operations.</p><p style=\" display: block; position: static; top: auto; left: auto; right: auto; bottom: auto; width: 600px; height: 21px; margin: 16px 0px; padding: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; background-color: rgba(0, 0, 0, 0); color: rgb(0, 0, 0); font-size: 16px; font-family: system-ui, sans-serif; font-weight: 400; border: 0px none rgb(0, 0, 0); border-radius: 0px; flex: 0 1 auto; flex-direction: row; grid: none / none / none / row / auto / auto; opacity: 1; z-index: auto; \"><a href=\"https://iana.org/domains/example\" style=\" display: inline; position: static; top: auto; left: auto; right: auto; bottom: auto; width: auto; height: auto; margin: 0px; padding: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; background-color: rgba(0, 0, 0, 0); color: rgb(51, 68, 136); font-size: 16px; font-family: system-ui, sans-serif; font-weight: 400; border: 0px none rgb(51, 68, 136); border-radius: 0px; flex: 0 1 auto; flex-direction: row; grid: none / none / none / row / auto / auto; opacity: 1; z-index: auto; \">Learn more</a></p></div>\n",
+            "url": "https://example.com/",
+            "viewportWidth": 0,
+            "viewportHeight": 0
+          },
+          "type": "navigation",
+          "url": "https://example.com/"
+        },
+        {
+          "commandId": "cmd_2",
+          "commandName": "title",
+          "args": [],
+          "timestamp": 1767355595270,
+          "timestampRelative": 141,
+          "testName": "JS Example spec should trace visit and title commands",
+          "specFile": "cypress\\e2e\\example.cy.js",
+          "state": "passed",
+          "duration": 37,
+          "type": "query",
+          "url": "https://example.com/"
+        },
+        {
+          "commandId": "assert_1767355595305_j5q0i",
+          "commandName": "should",
+          "args": [
+            "expected **Example Domain** to include **Example**"
+          ],
+          "timestamp": 1767355595305,
+          "timestampRelative": 176,
+          "testName": "JS Example spec should trace visit and title commands",
+          "specFile": "cypress\\e2e\\example.cy.js",
+          "state": "passed",
+          "domAfter": {
+            "timestamp": 1767355595305,
+            "html": "<style>\n        * { box-sizing: border-box; }\n        body { margin: 0; padding: 0; }\n        img { max-width: 100%; height: auto; }\n      </style>\n<style>body{background:#eee;width:60vw;margin:15vh auto;font-family:system-ui,sans-serif}h1{font-size:1.5em}div{opacity:0.8}a:link,a:visited{color:#348}</style>\n<div style=\" display: block; position: static; top: auto; left: auto; right: auto; bottom: auto; width: 600px; height: 127.078px; margin: 0px; padding: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; background-color: rgba(0, 0, 0, 0); color: rgb(0, 0, 0); font-size: 16px; font-family: system-ui, sans-serif; font-weight: 400; border: 0px none rgb(0, 0, 0); border-radius: 0px; flex: 0 1 auto; flex-direction: row; grid: none / none / none / row / auto / auto; opacity: 0.8; z-index: auto; \"><h1 style=\" display: block; position: static; top: auto; left: auto; right: auto; bottom: auto; width: 600px; height: 32px; margin: 16.08px 0px; padding: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; background-color: rgba(0, 0, 0, 0); color: rgb(0, 0, 0); font-size: 24px; font-family: system-ui, sans-serif; font-weight: 700; border: 0px none rgb(0, 0, 0); border-radius: 0px; flex: 0 1 auto; flex-direction: row; grid: none / none / none / row / auto / auto; opacity: 1; z-index: auto; \">Example Domain</h1><p style=\" display: block; position: static; top: auto; left: auto; right: auto; bottom: auto; width: 600px; height: 42px; margin: 16px 0px; padding: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; background-color: rgba(0, 0, 0, 0); color: rgb(0, 0, 0); font-size: 16px; font-family: system-ui, sans-serif; font-weight: 400; border: 0px none rgb(0, 0, 0); border-radius: 0px; flex: 0 1 auto; flex-direction: row; grid: none / none / none / row / auto / auto; opacity: 1; z-index: auto; \">This domain is for use in documentation examples without needing permission. Avoid use in operations.</p><p style=\" display: block; position: static; top: auto; left: auto; right: auto; bottom: auto; width: 600px; height: 21px; margin: 16px 0px; padding: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; background-color: rgba(0, 0, 0, 0); color: rgb(0, 0, 0); font-size: 16px; font-family: system-ui, sans-serif; font-weight: 400; border: 0px none rgb(0, 0, 0); border-radius: 0px; flex: 0 1 auto; flex-direction: row; grid: none / none / none / row / auto / auto; opacity: 1; z-index: auto; \"><a href=\"https://iana.org/domains/example\" style=\" display: inline; position: static; top: auto; left: auto; right: auto; bottom: auto; width: auto; height: auto; margin: 0px; padding: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; background-color: rgba(0, 0, 0, 0); color: rgb(51, 68, 136); font-size: 16px; font-family: system-ui, sans-serif; font-weight: 400; border: 0px none rgb(51, 68, 136); border-radius: 0px; flex: 0 1 auto; flex-direction: row; grid: none / none / none / row / auto / auto; opacity: 1; z-index: auto; \">Learn more</a></p></div>\n",
+            "url": "https://example.com/",
+            "viewportWidth": 0,
+            "viewportHeight": 0
+          },
+          "type": "assertion",
+          "url": "https://example.com/",
+          "assertionMessage": "expected **Example Domain** to include **Example**"
+        }
+      ]
+    },
+    {
+      "testId": "r4",
+      "title": [
+        "JS Example spec",
+        "should trace element interactions"
+      ],
+      "fullTitle": "JS Example spec should trace element interactions",
+      "state": "passed",
+      "duration": 158,
+      "startTime": 1767355595372,
+      "endTime": 1767355595541,
+      "commands": [
+        {
+          "commandId": "cmd_3",
+          "commandName": "visit",
+          "args": [
+            "https://example.com"
+          ],
+          "timestamp": 1767355595381,
+          "timestampRelative": 9,
+          "testName": "JS Example spec should trace element interactions",
+          "specFile": "cypress\\e2e\\example.cy.js",
+          "state": "passed",
+          "duration": 109,
+          "domAfter": {
+            "timestamp": 1767355595490,
+            "html": "<style>\n        * { box-sizing: border-box; }\n        body { margin: 0; padding: 0; }\n        img { max-width: 100%; height: auto; }\n      </style>\n<style>body{background:#eee;width:60vw;margin:15vh auto;font-family:system-ui,sans-serif}h1{font-size:1.5em}div{opacity:0.8}a:link,a:visited{color:#348}</style>\n<div style=\" display: block; position: static; top: auto; left: auto; right: auto; bottom: auto; width: 600px; height: 127.078px; margin: 0px; padding: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; background-color: rgba(0, 0, 0, 0); color: rgb(0, 0, 0); font-size: 16px; font-family: system-ui, sans-serif; font-weight: 400; border: 0px none rgb(0, 0, 0); border-radius: 0px; flex: 0 1 auto; flex-direction: row; grid: none / none / none / row / auto / auto; opacity: 0.8; z-index: auto; \"><h1 style=\" display: block; position: static; top: auto; left: auto; right: auto; bottom: auto; width: 600px; height: 32px; margin: 16.08px 0px; padding: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; background-color: rgba(0, 0, 0, 0); color: rgb(0, 0, 0); font-size: 24px; font-family: system-ui, sans-serif; font-weight: 700; border: 0px none rgb(0, 0, 0); border-radius: 0px; flex: 0 1 auto; flex-direction: row; grid: none / none / none / row / auto / auto; opacity: 1; z-index: auto; \">Example Domain</h1><p style=\" display: block; position: static; top: auto; left: auto; right: auto; bottom: auto; width: 600px; height: 42px; margin: 16px 0px; padding: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; background-color: rgba(0, 0, 0, 0); color: rgb(0, 0, 0); font-size: 16px; font-family: system-ui, sans-serif; font-weight: 400; border: 0px none rgb(0, 0, 0); border-radius: 0px; flex: 0 1 auto; flex-direction: row; grid: none / none / none / row / auto / auto; opacity: 1; z-index: auto; \">This domain is for use in documentation examples without needing permission. Avoid use in operations.</p><p style=\" display: block; position: static; top: auto; left: auto; right: auto; bottom: auto; width: 600px; height: 21px; margin: 16px 0px; padding: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; background-color: rgba(0, 0, 0, 0); color: rgb(0, 0, 0); font-size: 16px; font-family: system-ui, sans-serif; font-weight: 400; border: 0px none rgb(0, 0, 0); border-radius: 0px; flex: 0 1 auto; flex-direction: row; grid: none / none / none / row / auto / auto; opacity: 1; z-index: auto; \"><a href=\"https://iana.org/domains/example\" style=\" display: inline; position: static; top: auto; left: auto; right: auto; bottom: auto; width: auto; height: auto; margin: 0px; padding: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; background-color: rgba(0, 0, 0, 0); color: rgb(51, 68, 136); font-size: 16px; font-family: system-ui, sans-serif; font-weight: 400; border: 0px none rgb(51, 68, 136); border-radius: 0px; flex: 0 1 auto; flex-direction: row; grid: none / none / none / row / auto / auto; opacity: 1; z-index: auto; \">Learn more</a></p></div>\n",
+            "url": "https://example.com/",
+            "viewportWidth": 0,
+            "viewportHeight": 0
+          },
+          "type": "navigation",
+          "url": "https://example.com/"
+        },
+        {
+          "commandId": "cmd_4",
+          "commandName": "get",
+          "selector": "h1",
+          "args": [
+            "h1"
+          ],
+          "timestamp": 1767355595491,
+          "timestampRelative": 119,
+          "testName": "JS Example spec should trace element interactions",
+          "specFile": "cypress\\e2e\\example.cy.js",
+          "state": "passed",
+          "duration": 12,
+          "element": {
+            "selector": "h1",
+            "tag": "h1",
+            "attributes": {},
+            "boundingBox": {
+              "x": 200,
+              "y": 99,
+              "width": 600,
+              "height": 32,
+              "top": 99,
+              "left": 200,
+              "right": 800,
+              "bottom": 131
+            },
+            "textContent": "Example Domain"
+          },
+          "domAfter": {
+            "timestamp": 1767355595503,
+            "html": "<style>\n        * { box-sizing: border-box; }\n        body { margin: 0; padding: 0; }\n        img { max-width: 100%; height: auto; }\n      </style>\n<style>body{background:#eee;width:60vw;margin:15vh auto;font-family:system-ui,sans-serif}h1{font-size:1.5em}div{opacity:0.8}a:link,a:visited{color:#348}</style>\n<div style=\" display: block; position: static; top: auto; left: auto; right: auto; bottom: auto; width: 600px; height: 127.078px; margin: 0px; padding: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; background-color: rgba(0, 0, 0, 0); color: rgb(0, 0, 0); font-size: 16px; font-family: system-ui, sans-serif; font-weight: 400; border: 0px none rgb(0, 0, 0); border-radius: 0px; flex: 0 1 auto; flex-direction: row; grid: none / none / none / row / auto / auto; opacity: 0.8; z-index: auto; \"><h1 style=\" display: block; position: static; top: auto; left: auto; right: auto; bottom: auto; width: 600px; height: 32px; margin: 16.08px 0px; padding: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; background-color: rgba(0, 0, 0, 0); color: rgb(0, 0, 0); font-size: 24px; font-family: system-ui, sans-serif; font-weight: 700; border: 0px none rgb(0, 0, 0); border-radius: 0px; flex: 0 1 auto; flex-direction: row; grid: none / none / none / row / auto / auto; opacity: 1; z-index: auto; \">Example Domain</h1><p style=\" display: block; position: static; top: auto; left: auto; right: auto; bottom: auto; width: 600px; height: 42px; margin: 16px 0px; padding: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; background-color: rgba(0, 0, 0, 0); color: rgb(0, 0, 0); font-size: 16px; font-family: system-ui, sans-serif; font-weight: 400; border: 0px none rgb(0, 0, 0); border-radius: 0px; flex: 0 1 auto; flex-direction: row; grid: none / none / none / row / auto / auto; opacity: 1; z-index: auto; \">This domain is for use in documentation examples without needing permission. Avoid use in operations.</p><p style=\" display: block; position: static; top: auto; left: auto; right: auto; bottom: auto; width: 600px; height: 21px; margin: 16px 0px; padding: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; background-color: rgba(0, 0, 0, 0); color: rgb(0, 0, 0); font-size: 16px; font-family: system-ui, sans-serif; font-weight: 400; border: 0px none rgb(0, 0, 0); border-radius: 0px; flex: 0 1 auto; flex-direction: row; grid: none / none / none / row / auto / auto; opacity: 1; z-index: auto; \"><a href=\"https://iana.org/domains/example\" style=\" display: inline; position: static; top: auto; left: auto; right: auto; bottom: auto; width: auto; height: auto; margin: 0px; padding: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; background-color: rgba(0, 0, 0, 0); color: rgb(51, 68, 136); font-size: 16px; font-family: system-ui, sans-serif; font-weight: 400; border: 0px none rgb(51, 68, 136); border-radius: 0px; flex: 0 1 auto; flex-direction: row; grid: none / none / none / row / auto / auto; opacity: 1; z-index: auto; \">Learn more</a></p></div>\n",
+            "url": "https://example.com/",
+            "viewportWidth": 0,
+            "viewportHeight": 0
+          },
+          "type": "query",
+          "url": "https://example.com/"
+        },
+        {
+          "commandId": "assert_1767355595502_mrf6g",
+          "commandName": "should",
+          "args": [
+            "expected **<h1>** to be **visible**"
+          ],
+          "timestamp": 1767355595502,
+          "timestampRelative": 130,
+          "testName": "JS Example spec should trace element interactions",
+          "specFile": "cypress\\e2e\\example.cy.js",
+          "state": "passed",
+          "domAfter": {
+            "timestamp": 1767355595502,
+            "html": "<style>\n        * { box-sizing: border-box; }\n        body { margin: 0; padding: 0; }\n        img { max-width: 100%; height: auto; }\n      </style>\n<style>body{background:#eee;width:60vw;margin:15vh auto;font-family:system-ui,sans-serif}h1{font-size:1.5em}div{opacity:0.8}a:link,a:visited{color:#348}</style>\n<div style=\" display: block; position: static; top: auto; left: auto; right: auto; bottom: auto; width: 600px; height: 127.078px; margin: 0px; padding: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; background-color: rgba(0, 0, 0, 0); color: rgb(0, 0, 0); font-size: 16px; font-family: system-ui, sans-serif; font-weight: 400; border: 0px none rgb(0, 0, 0); border-radius: 0px; flex: 0 1 auto; flex-direction: row; grid: none / none / none / row / auto / auto; opacity: 0.8; z-index: auto; \"><h1 style=\" display: block; position: static; top: auto; left: auto; right: auto; bottom: auto; width: 600px; height: 32px; margin: 16.08px 0px; padding: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; background-color: rgba(0, 0, 0, 0); color: rgb(0, 0, 0); font-size: 24px; font-family: system-ui, sans-serif; font-weight: 700; border: 0px none rgb(0, 0, 0); border-radius: 0px; flex: 0 1 auto; flex-direction: row; grid: none / none / none / row / auto / auto; opacity: 1; z-index: auto; \">Example Domain</h1><p style=\" display: block; position: static; top: auto; left: auto; right: auto; bottom: auto; width: 600px; height: 42px; margin: 16px 0px; padding: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; background-color: rgba(0, 0, 0, 0); color: rgb(0, 0, 0); font-size: 16px; font-family: system-ui, sans-serif; font-weight: 400; border: 0px none rgb(0, 0, 0); border-radius: 0px; flex: 0 1 auto; flex-direction: row; grid: none / none / none / row / auto / auto; opacity: 1; z-index: auto; \">This domain is for use in documentation examples without needing permission. Avoid use in operations.</p><p style=\" display: block; position: static; top: auto; left: auto; right: auto; bottom: auto; width: 600px; height: 21px; margin: 16px 0px; padding: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; background-color: rgba(0, 0, 0, 0); color: rgb(0, 0, 0); font-size: 16px; font-family: system-ui, sans-serif; font-weight: 400; border: 0px none rgb(0, 0, 0); border-radius: 0px; flex: 0 1 auto; flex-direction: row; grid: none / none / none / row / auto / auto; opacity: 1; z-index: auto; \"><a href=\"https://iana.org/domains/example\" style=\" display: inline; position: static; top: auto; left: auto; right: auto; bottom: auto; width: auto; height: auto; margin: 0px; padding: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; background-color: rgba(0, 0, 0, 0); color: rgb(51, 68, 136); font-size: 16px; font-family: system-ui, sans-serif; font-weight: 400; border: 0px none rgb(51, 68, 136); border-radius: 0px; flex: 0 1 auto; flex-direction: row; grid: none / none / none / row / auto / auto; opacity: 1; z-index: auto; \">Learn more</a></p></div>\n",
+            "url": "https://example.com/",
+            "viewportWidth": 0,
+            "viewportHeight": 0
+          },
+          "type": "assertion",
+          "url": "https://example.com/",
+          "assertionMessage": "expected **<h1>** to be **visible**"
+        },
+        {
+          "commandId": "cmd_5",
+          "commandName": "get",
+          "selector": "a",
+          "args": [
+            "a"
+          ],
+          "timestamp": 1767355595504,
+          "timestampRelative": 132,
+          "testName": "JS Example spec should trace element interactions",
+          "specFile": "cypress\\e2e\\example.cy.js",
+          "state": "passed",
+          "duration": 3,
+          "element": {
+            "selector": "a",
+            "tag": "a",
+            "attributes": {
+              "href": "https://iana.org/domains/example"
+            },
+            "boundingBox": {
+              "x": 200,
+              "y": 205.078125,
+              "width": 80.125,
+              "height": 21,
+              "top": 205.078125,
+              "left": 200,
+              "right": 280.125,
+              "bottom": 226.078125
+            },
+            "textContent": "Learn more"
+          },
+          "domAfter": {
+            "timestamp": 1767355595507,
+            "html": "<style>\n        * { box-sizing: border-box; }\n        body { margin: 0; padding: 0; }\n        img { max-width: 100%; height: auto; }\n      </style>\n<style>body{background:#eee;width:60vw;margin:15vh auto;font-family:system-ui,sans-serif}h1{font-size:1.5em}div{opacity:0.8}a:link,a:visited{color:#348}</style>\n<div style=\" display: block; position: static; top: auto; left: auto; right: auto; bottom: auto; width: 600px; height: 127.078px; margin: 0px; padding: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; background-color: rgba(0, 0, 0, 0); color: rgb(0, 0, 0); font-size: 16px; font-family: system-ui, sans-serif; font-weight: 400; border: 0px none rgb(0, 0, 0); border-radius: 0px; flex: 0 1 auto; flex-direction: row; grid: none / none / none / row / auto / auto; opacity: 0.8; z-index: auto; \"><h1 style=\" display: block; position: static; top: auto; left: auto; right: auto; bottom: auto; width: 600px; height: 32px; margin: 16.08px 0px; padding: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; background-color: rgba(0, 0, 0, 0); color: rgb(0, 0, 0); font-size: 24px; font-family: system-ui, sans-serif; font-weight: 700; border: 0px none rgb(0, 0, 0); border-radius: 0px; flex: 0 1 auto; flex-direction: row; grid: none / none / none / row / auto / auto; opacity: 1; z-index: auto; \">Example Domain</h1><p style=\" display: block; position: static; top: auto; left: auto; right: auto; bottom: auto; width: 600px; height: 42px; margin: 16px 0px; padding: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; background-color: rgba(0, 0, 0, 0); color: rgb(0, 0, 0); font-size: 16px; font-family: system-ui, sans-serif; font-weight: 400; border: 0px none rgb(0, 0, 0); border-radius: 0px; flex: 0 1 auto; flex-direction: row; grid: none / none / none / row / auto / auto; opacity: 1; z-index: auto; \">This domain is for use in documentation examples without needing permission. Avoid use in operations.</p><p style=\" display: block; position: static; top: auto; left: auto; right: auto; bottom: auto; width: 600px; height: 21px; margin: 16px 0px; padding: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; background-color: rgba(0, 0, 0, 0); color: rgb(0, 0, 0); font-size: 16px; font-family: system-ui, sans-serif; font-weight: 400; border: 0px none rgb(0, 0, 0); border-radius: 0px; flex: 0 1 auto; flex-direction: row; grid: none / none / none / row / auto / auto; opacity: 1; z-index: auto; \"><a href=\"https://iana.org/domains/example\" style=\" display: inline; position: static; top: auto; left: auto; right: auto; bottom: auto; width: auto; height: auto; margin: 0px; padding: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; background-color: rgba(0, 0, 0, 0); color: rgb(51, 68, 136); font-size: 16px; font-family: system-ui, sans-serif; font-weight: 400; border: 0px none rgb(51, 68, 136); border-radius: 0px; flex: 0 1 auto; flex-direction: row; grid: none / none / none / row / auto / auto; opacity: 1; z-index: auto; \">Learn more</a></p></div>\n",
+            "url": "https://example.com/",
+            "viewportWidth": 0,
+            "viewportHeight": 0
+          },
+          "type": "query",
+          "url": "https://example.com/"
+        },
+        {
+          "commandId": "assert_1767355595507_j0mqh",
+          "commandName": "should",
+          "args": [
+            "expected **<a>** to exist in the DOM"
+          ],
+          "timestamp": 1767355595507,
+          "timestampRelative": 135,
+          "testName": "JS Example spec should trace element interactions",
+          "specFile": "cypress\\e2e\\example.cy.js",
+          "state": "passed",
+          "domAfter": {
+            "timestamp": 1767355595507,
+            "html": "<style>\n        * { box-sizing: border-box; }\n        body { margin: 0; padding: 0; }\n        img { max-width: 100%; height: auto; }\n      </style>\n<style>body{background:#eee;width:60vw;margin:15vh auto;font-family:system-ui,sans-serif}h1{font-size:1.5em}div{opacity:0.8}a:link,a:visited{color:#348}</style>\n<div style=\" display: block; position: static; top: auto; left: auto; right: auto; bottom: auto; width: 600px; height: 127.078px; margin: 0px; padding: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; background-color: rgba(0, 0, 0, 0); color: rgb(0, 0, 0); font-size: 16px; font-family: system-ui, sans-serif; font-weight: 400; border: 0px none rgb(0, 0, 0); border-radius: 0px; flex: 0 1 auto; flex-direction: row; grid: none / none / none / row / auto / auto; opacity: 0.8; z-index: auto; \"><h1 style=\" display: block; position: static; top: auto; left: auto; right: auto; bottom: auto; width: 600px; height: 32px; margin: 16.08px 0px; padding: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; background-color: rgba(0, 0, 0, 0); color: rgb(0, 0, 0); font-size: 24px; font-family: system-ui, sans-serif; font-weight: 700; border: 0px none rgb(0, 0, 0); border-radius: 0px; flex: 0 1 auto; flex-direction: row; grid: none / none / none / row / auto / auto; opacity: 1; z-index: auto; \">Example Domain</h1><p style=\" display: block; position: static; top: auto; left: auto; right: auto; bottom: auto; width: 600px; height: 42px; margin: 16px 0px; padding: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; background-color: rgba(0, 0, 0, 0); color: rgb(0, 0, 0); font-size: 16px; font-family: system-ui, sans-serif; font-weight: 400; border: 0px none rgb(0, 0, 0); border-radius: 0px; flex: 0 1 auto; flex-direction: row; grid: none / none / none / row / auto / auto; opacity: 1; z-index: auto; \">This domain is for use in documentation examples without needing permission. Avoid use in operations.</p><p style=\" display: block; position: static; top: auto; left: auto; right: auto; bottom: auto; width: 600px; height: 21px; margin: 16px 0px; padding: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; background-color: rgba(0, 0, 0, 0); color: rgb(0, 0, 0); font-size: 16px; font-family: system-ui, sans-serif; font-weight: 400; border: 0px none rgb(0, 0, 0); border-radius: 0px; flex: 0 1 auto; flex-direction: row; grid: none / none / none / row / auto / auto; opacity: 1; z-index: auto; \"><a href=\"https://iana.org/domains/example\" style=\" display: inline; position: static; top: auto; left: auto; right: auto; bottom: auto; width: auto; height: auto; margin: 0px; padding: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; background-color: rgba(0, 0, 0, 0); color: rgb(51, 68, 136); font-size: 16px; font-family: system-ui, sans-serif; font-weight: 400; border: 0px none rgb(51, 68, 136); border-radius: 0px; flex: 0 1 auto; flex-direction: row; grid: none / none / none / row / auto / auto; opacity: 1; z-index: auto; \">Learn more</a></p></div>\n",
+            "url": "https://example.com/",
+            "viewportWidth": 0,
+            "viewportHeight": 0
+          },
+          "type": "assertion",
+          "url": "https://example.com/",
+          "assertionMessage": "expected **<a>** to exist in the DOM"
+        },
+        {
+          "commandId": "cmd_6",
+          "commandName": "get",
+          "selector": "p",
+          "args": [
+            "p"
+          ],
+          "timestamp": 1767355595508,
+          "timestampRelative": 136,
+          "testName": "JS Example spec should trace element interactions",
+          "specFile": "cypress\\e2e\\example.cy.js",
+          "state": "passed",
+          "duration": 1,
+          "element": {
+            "selector": "p",
+            "tag": "p",
+            "attributes": {},
+            "boundingBox": {
+              "x": 200,
+              "y": 147.078125,
+              "width": 600,
+              "height": 42,
+              "top": 147.078125,
+              "left": 200,
+              "right": 800,
+              "bottom": 189.078125
+            },
+            "textContent": "This domain is for use in documentation examples without needing permission. Avoid use in operations"
+          },
+          "domAfter": {
+            "timestamp": 1767355595509,
+            "html": "<style>\n        * { box-sizing: border-box; }\n        body { margin: 0; padding: 0; }\n        img { max-width: 100%; height: auto; }\n      </style>\n<style>body{background:#eee;width:60vw;margin:15vh auto;font-family:system-ui,sans-serif}h1{font-size:1.5em}div{opacity:0.8}a:link,a:visited{color:#348}</style>\n<div style=\" display: block; position: static; top: auto; left: auto; right: auto; bottom: auto; width: 600px; height: 127.078px; margin: 0px; padding: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; background-color: rgba(0, 0, 0, 0); color: rgb(0, 0, 0); font-size: 16px; font-family: system-ui, sans-serif; font-weight: 400; border: 0px none rgb(0, 0, 0); border-radius: 0px; flex: 0 1 auto; flex-direction: row; grid: none / none / none / row / auto / auto; opacity: 0.8; z-index: auto; \"><h1 style=\" display: block; position: static; top: auto; left: auto; right: auto; bottom: auto; width: 600px; height: 32px; margin: 16.08px 0px; padding: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; background-color: rgba(0, 0, 0, 0); color: rgb(0, 0, 0); font-size: 24px; font-family: system-ui, sans-serif; font-weight: 700; border: 0px none rgb(0, 0, 0); border-radius: 0px; flex: 0 1 auto; flex-direction: row; grid: none / none / none / row / auto / auto; opacity: 1; z-index: auto; \">Example Domain</h1><p style=\" display: block; position: static; top: auto; left: auto; right: auto; bottom: auto; width: 600px; height: 42px; margin: 16px 0px; padding: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; background-color: rgba(0, 0, 0, 0); color: rgb(0, 0, 0); font-size: 16px; font-family: system-ui, sans-serif; font-weight: 400; border: 0px none rgb(0, 0, 0); border-radius: 0px; flex: 0 1 auto; flex-direction: row; grid: none / none / none / row / auto / auto; opacity: 1; z-index: auto; \">This domain is for use in documentation examples without needing permission. Avoid use in operations.</p><p style=\" display: block; position: static; top: auto; left: auto; right: auto; bottom: auto; width: 600px; height: 21px; margin: 16px 0px; padding: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; background-color: rgba(0, 0, 0, 0); color: rgb(0, 0, 0); font-size: 16px; font-family: system-ui, sans-serif; font-weight: 400; border: 0px none rgb(0, 0, 0); border-radius: 0px; flex: 0 1 auto; flex-direction: row; grid: none / none / none / row / auto / auto; opacity: 1; z-index: auto; \"><a href=\"https://iana.org/domains/example\" style=\" display: inline; position: static; top: auto; left: auto; right: auto; bottom: auto; width: auto; height: auto; margin: 0px; padding: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; background-color: rgba(0, 0, 0, 0); color: rgb(51, 68, 136); font-size: 16px; font-family: system-ui, sans-serif; font-weight: 400; border: 0px none rgb(51, 68, 136); border-radius: 0px; flex: 0 1 auto; flex-direction: row; grid: none / none / none / row / auto / auto; opacity: 1; z-index: auto; \">Learn more</a></p></div>\n",
+            "url": "https://example.com/",
+            "viewportWidth": 0,
+            "viewportHeight": 0
+          },
+          "type": "query",
+          "url": "https://example.com/"
+        },
+        {
+          "commandId": "cmd_7",
+          "commandName": "first",
+          "args": [],
+          "timestamp": 1767355595510,
+          "timestampRelative": 138,
+          "testName": "JS Example spec should trace element interactions",
+          "specFile": "cypress\\e2e\\example.cy.js",
+          "state": "passed",
+          "duration": 5,
+          "element": {
+            "selector": "",
+            "tag": "p",
+            "attributes": {},
+            "boundingBox": {
+              "x": 200,
+              "y": 147.078125,
+              "width": 600,
+              "height": 42,
+              "top": 147.078125,
+              "left": 200,
+              "right": 800,
+              "bottom": 189.078125
+            },
+            "textContent": "This domain is for use in documentation examples without needing permission. Avoid use in operations"
+          },
+          "type": "query",
+          "url": "https://example.com/"
+        },
+        {
+          "commandId": "assert_1767355595515_gi4n4",
+          "commandName": "should",
+          "args": [
+            "expected **<p>** to be **visible**"
+          ],
+          "timestamp": 1767355595515,
+          "timestampRelative": 143,
+          "testName": "JS Example spec should trace element interactions",
+          "specFile": "cypress\\e2e\\example.cy.js",
+          "state": "passed",
+          "domAfter": {
+            "timestamp": 1767355595515,
+            "html": "<style>\n        * { box-sizing: border-box; }\n        body { margin: 0; padding: 0; }\n        img { max-width: 100%; height: auto; }\n      </style>\n<style>body{background:#eee;width:60vw;margin:15vh auto;font-family:system-ui,sans-serif}h1{font-size:1.5em}div{opacity:0.8}a:link,a:visited{color:#348}</style>\n<div style=\" display: block; position: static; top: auto; left: auto; right: auto; bottom: auto; width: 600px; height: 127.078px; margin: 0px; padding: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; background-color: rgba(0, 0, 0, 0); color: rgb(0, 0, 0); font-size: 16px; font-family: system-ui, sans-serif; font-weight: 400; border: 0px none rgb(0, 0, 0); border-radius: 0px; flex: 0 1 auto; flex-direction: row; grid: none / none / none / row / auto / auto; opacity: 0.8; z-index: auto; \"><h1 style=\" display: block; position: static; top: auto; left: auto; right: auto; bottom: auto; width: 600px; height: 32px; margin: 16.08px 0px; padding: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; background-color: rgba(0, 0, 0, 0); color: rgb(0, 0, 0); font-size: 24px; font-family: system-ui, sans-serif; font-weight: 700; border: 0px none rgb(0, 0, 0); border-radius: 0px; flex: 0 1 auto; flex-direction: row; grid: none / none / none / row / auto / auto; opacity: 1; z-index: auto; \">Example Domain</h1><p style=\" display: block; position: static; top: auto; left: auto; right: auto; bottom: auto; width: 600px; height: 42px; margin: 16px 0px; padding: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; background-color: rgba(0, 0, 0, 0); color: rgb(0, 0, 0); font-size: 16px; font-family: system-ui, sans-serif; font-weight: 400; border: 0px none rgb(0, 0, 0); border-radius: 0px; flex: 0 1 auto; flex-direction: row; grid: none / none / none / row / auto / auto; opacity: 1; z-index: auto; \">This domain is for use in documentation examples without needing permission. Avoid use in operations.</p><p style=\" display: block; position: static; top: auto; left: auto; right: auto; bottom: auto; width: 600px; height: 21px; margin: 16px 0px; padding: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; background-color: rgba(0, 0, 0, 0); color: rgb(0, 0, 0); font-size: 16px; font-family: system-ui, sans-serif; font-weight: 400; border: 0px none rgb(0, 0, 0); border-radius: 0px; flex: 0 1 auto; flex-direction: row; grid: none / none / none / row / auto / auto; opacity: 1; z-index: auto; \"><a href=\"https://iana.org/domains/example\" style=\" display: inline; position: static; top: auto; left: auto; right: auto; bottom: auto; width: auto; height: auto; margin: 0px; padding: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; background-color: rgba(0, 0, 0, 0); color: rgb(51, 68, 136); font-size: 16px; font-family: system-ui, sans-serif; font-weight: 400; border: 0px none rgb(51, 68, 136); border-radius: 0px; flex: 0 1 auto; flex-direction: row; grid: none / none / none / row / auto / auto; opacity: 1; z-index: auto; \">Learn more</a></p></div>\n",
+            "url": "https://example.com/",
+            "viewportWidth": 0,
+            "viewportHeight": 0
+          },
+          "type": "assertion",
+          "url": "https://example.com/",
+          "assertionMessage": "expected **<p>** to be **visible**"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "browser": "",
+    "browserVersion": "",
+    "os": "",
+    "cypressVersion": "",
+    "viewportWidth": 0,
+    "viewportHeight": 0,
+    "videoEnabled": true
+  },
+  "videoFile": "D:\\reporter\\AAA_playwright-projects\\cypress-js\\cypress\\videos\\example.cy.js.mp4",
+  "videoStartTime": 1767355597381,
+  "videoOffsetMs": 5872,
+  "endTime": 1767355597381,
+  "duration": 5872
+}

@@ -1,0 +1,17 @@
+{
+  "name": "aaa-cypress-ts",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "cypress": "^12.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "testlens-cypress-reporter": "file:../../testlens_playwright_reporter/cypress_package"
+  }
+}

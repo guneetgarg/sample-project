@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestLens Selenium Sample Suite" parallel="methods" thread-count="2" verbose="1">
+    
+    <!-- TestLens Reporter Listener -->
+    <listeners>
+        <listener class-name="com.testlens.reporter.TestLensListener"/>
+    </listeners>
+    
+    <!-- Test Configuration -->
+    <test name="Sample E2E Tests">
+        <classes>
+            <class name="com.testlens.sample.tests.GoogleSearchTest"/>
+      
+        </classes>
+    </test>
+    
+</suite>

@@ -1,0 +1,16 @@
+{
+  "name": "aaa-playwright-sample",
+  "version": "1.0.0",
+  "description": "Minimal Playwright JS sample project for TestLens",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  },
+  "dependencies": {
+    "@alternative-path/testlens-playwright-reporter": "file:../../testlens_playwright_reporter/playwright_package"
+  }
+}
