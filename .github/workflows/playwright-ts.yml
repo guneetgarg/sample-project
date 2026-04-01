@@ -1,11 +1,21 @@
-name: Playwright
+name: Playwright (playwright-ts)
 
 on:
   push:
     branches: [main, master]
+    paths:
+      - "playwright-ts/**"
+      - ".github/workflows/playwright-ts.yml"
   pull_request:
     branches: [main, master]
+    paths:
+      - "playwright-ts/**"
+      - ".github/workflows/playwright-ts.yml"
   workflow_dispatch:
+
+defaults:
+  run:
+    working-directory: playwright-ts
 
 jobs:
   test:
@@ -19,6 +29,7 @@ jobs:
         with:
           node-version: "20"
           cache: npm
+          cache-dependency-path: playwright-ts/package-lock.json
 
       - name: Install dependencies
         run: npm ci
